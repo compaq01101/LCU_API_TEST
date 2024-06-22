@@ -128,9 +128,9 @@ std::string Client::getFriendCounts() {
 }
 
 /*************************************************************************
- * @brief 친구 수 카운트 func
- * @note GET endpoint "/lol-chat/v1/friend-counts"
- * @return std::string 친구 수를 포함하는 JSON 문자열.
+ * @brief 차단 목록 표시 func
+ * @note GET endpoint "/lol-chat/v1/blocked-players"
+ * @return std::string 차단한 유저를 JSON 문자열.
 **************************************************************************/
 std::string Client::getBlockPlayer() {
     std::string get_url = req_url + "/lol-chat/v1/blocked-players";
